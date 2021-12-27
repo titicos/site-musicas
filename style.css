@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(45deg,cyan,yellow);
+
+}
+
+nav{
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    word-spacing: 20px;
+}
+
+nav ul{
+    position: absolute;
+    background-color: rgb(0, 162, 255);
+    right: 30px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
+
+main{
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+
+    position: relative;
+    
+    
+}
+
+
+main > h2{
+    text-align: center;
+    color: rgb(172, 39, 161);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+}
+
+iframe{
+    width: 30%;
+    margin: 10px;
+    height: 200px;
+    border-radius: 10px;
+    border-bottom: rgb(30, 167, 41) solid 5px;
+}
+
+
+.videos{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    word-spacing: 20px;
+    
+}
+
+p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+main img{
+    display: block;
+    margin: auto;
+    border-radius: 0px 20px 0px 20px;
+}
+
+main img:hover{
+    box-shadow: solid black 10px 8px;
+}
+
+
+.video2{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(122, 174, 235, 0.815);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ultimo{
+    padding-bottom: 200px;
+}
+
+
+
+footer{
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.795);
+    color: white;
+    
+}
+
+
+footer >p{
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 50px;
+    font-family: cursive;
+}
